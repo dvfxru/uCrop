@@ -306,7 +306,7 @@ public class OverlayView extends View {
 
         if ((event.getAction() & MotionEvent.ACTION_MASK) == MotionEvent.ACTION_DOWN) {
             mCurrentTouchCornerIndex = getCurrentTouchIndex(x, y);
-            boolean shouldHandle = mCurrentTouchCornerIndex != -1;
+            boolean shouldHandle = mCurrentTouchCornerIndex != -1 && mCurrentTouchCornerIndex != 4;
             if (!shouldHandle) {
                 mPreviousTouchX = -1;
                 mPreviousTouchY = -1;
