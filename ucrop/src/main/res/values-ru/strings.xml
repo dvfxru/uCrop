@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="ucrop_label_original">Оригинал</string>
+    <string name="ucrop_label_edit_photo">Редактирование</string>
+
+    <string name="ucrop_menu_crop">Готово</string>
+</resources>
