@@ -4,4 +4,7 @@
     <string name="ucrop_label_edit_photo">Редактирование</string>
 
     <string name="ucrop_menu_crop">Готово</string>
+    <string name="ucrop_rotate">Поворот</string>
+    <string name="ucrop_scale">Масштаб</string>
+    <string name="ucrop_crop">Обрезка</string>
 </resources>
